@@ -40,35 +40,54 @@ namespace Tyuiu.KorolevES.Sprint2.Task5.V8.Lib
                     nn = n - 1;
                     break;
             }
+            string res ="Неккоректный день";
             switch (mm)
             {
                 case 1:
-                    return $"{nn} января";
+                    res= $"{nn} января";
+                    break;
                 case 2:
-                    return $"{nn} февраля";
+                    res= $"{nn} февраля";
+                    break;
                 case 3:
-                    return $"{nn} марта";
+                    res= $"{nn} марта";
+                    break;
                 case 4:
-                    return $"{nn} апреля";
+                    res= $"{nn} апреля";
+                    break;
                 case 5:
-                    return $"{nn} мая";
+                    res= $"{nn} мая";
+                    break;
                 case 6:
-                    return $"{nn} июня";
+                    res= $"{nn} июня";
+                    break;
                 case 7:
-                    return $"{nn} июля";
+                    res= $"{nn} июля";
+                    break;
                 case 8:
-                    return $"{nn} августа";
+                    res= $"{nn} августа";
+                    break;
                 case 9:
-                    return $"{nn} сентября";
+                    res= $"{nn} сентября";
+                    break;
                 case 10:
-                    return $"{nn} октября";
+                    res= $"{nn} октября";
+                    break;
                 case 11:
-                    return $"{nn} ноября";
+                    res= $"{nn} ноября";
+                    break;
                 case 12:
-                    return $"{nn} декабря";
+                    res= $"{nn} декабря";
+                    break;
 
 
             }
+            if (nn > 31)
+            {
+                res = "Неккоректный день";
+            }
+            return res;
+
         }
     }
 }
