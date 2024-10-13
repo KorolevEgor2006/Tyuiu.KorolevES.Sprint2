@@ -18,9 +18,9 @@ namespace Tyuiu.KorolevES.Sprint2.Task4.V12.Test
         public void ValidCalculateTest1()
         {
             DataService ds = new DataService();
-            double x = 1.0, y = 1.0;
+            double x = 9.0, y = 4.0;
             double res = ds.Calculate(x, y);
-            double wait = 1.045;
+            double wait = 9.076;
             Assert.AreEqual(wait, res);
         }
     }
