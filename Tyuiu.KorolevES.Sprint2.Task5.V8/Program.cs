@@ -9,7 +9,7 @@ namespace Tyuiu.KorolevES.Sprint2.Task5.V8
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Cпринт #2                                                               *");
-            Console.WriteLine("* Тема: Тернарный оператор                                                *");
+            Console.WriteLine("* Тема: Оператор switch                                                   *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #8                                                              *");
             Console.WriteLine("* Выполнил: Королев Егор Сергеевич | АСОиУб-24-1                          *");
@@ -23,9 +23,9 @@ namespace Tyuiu.KorolevES.Sprint2.Task5.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Введите номер месяца:                                                   *");
+            Console.WriteLine("* Введите день месяца:                                                    *");
             int m = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("* Введите число месяца:                                                   *");
+            Console.WriteLine("* Введите номер месяца:                                                   *");
             int n = Convert.ToInt32(Console.ReadLine());
 
             DataService ds = new DataService();

@@ -7,12 +7,15 @@ namespace Tyuiu.KorolevES.Sprint2.Task5.V8.Lib
         {
             int mm;
             int nn;
+            int k = n;
+            n = m;
+            m = k;
             switch (n)
             {
                 case 1:
                     if (m == 1)
                     {
-                        mm= 12;
+                        mm = 12;
                     }
                     else
                     {
@@ -44,40 +47,40 @@ namespace Tyuiu.KorolevES.Sprint2.Task5.V8.Lib
             switch (mm)
             {
                 case 1:
-                    res= $"{nn} января";
+                    res= $"{nn}.01";
                     break;
                 case 2:
-                    res= $"{nn} февраля";
+                    res= $"{nn}.02";
                     break;
                 case 3:
-                    res= $"{nn} марта";
+                    res= $"{nn}.03";
                     break;
                 case 4:
-                    res= $"{nn} апреля";
+                    res= $"{nn}.04";
                     break;
                 case 5:
-                    res= $"{nn} мая";
+                    res= $"{nn}.05";
                     break;
                 case 6:
-                    res= $"{nn} июня";
+                    res= $"{nn}.06";
                     break;
                 case 7:
-                    res= $"{nn} июля";
+                    res= $"{nn}.07";
                     break;
                 case 8:
-                    res= $"{nn} августа";
+                    res= $"{nn}.08";
                     break;
                 case 9:
-                    res= $"{nn} сентября";
+                    res= $"{nn}.09";
                     break;
                 case 10:
-                    res= $"{nn} октября";
+                    res= $"{nn}.10";
                     break;
                 case 11:
-                    res= $"{nn} ноября";
+                    res= $"{nn}.11";
                     break;
                 case 12:
-                    res= $"{nn} декабря";
+                    res= $"{nn}.12";
                     break;
 
 
