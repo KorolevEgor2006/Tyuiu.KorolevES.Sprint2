@@ -9,7 +9,7 @@ namespace Tyuiu.KorolevES.Sprint2.Task4.V12
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Cпринт #2                                                               *");
-            Console.WriteLine("* Тема: Вложенные операторы if - else                                     *");
+            Console.WriteLine("* Тема: Тернарный оператор                                                *");
             Console.WriteLine("* Задание #4                                                              *");
             Console.WriteLine("* Вариант #12                                                             *");
             Console.WriteLine("* Выполнил: Королев Егор Сергеевич | АСОиУб-24-1                          *");
