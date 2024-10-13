@@ -5,7 +5,7 @@ namespace Tyuiu.KorolevES.Sprint2.Task0.V24.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidCompareOperations()
         {
             DataService ds = new DataService();
             int x = 135;
