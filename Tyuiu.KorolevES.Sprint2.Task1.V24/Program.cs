@@ -5,7 +5,7 @@ namespace Tyuiu.KorolevES.Sprint2.Task1.V24
     {
         static void Main(string[] args)
         {
-            Console.Title = "Спринт #1 | Выполнил: Королев Е. С.| АСОиУб-24-1";
+            Console.Title = "Спринт #2 | Выполнил: Королев Е. С.| АСОиУб-24-1";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Cпринт #2                                                               *");
