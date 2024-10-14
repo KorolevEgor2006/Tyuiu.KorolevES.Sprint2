@@ -9,7 +9,7 @@ namespace Tyuiu.KorolevES.Sprint2.Task6.V2
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Cпринт #2                                                               *");
-            Console.WriteLine("* Тема: Оператор switch                                                   *");
+            Console.WriteLine("* Тема: Получение результата из switch                                    *");
             Console.WriteLine("* Задание #6                                                              *");
             Console.WriteLine("* Вариант #2                                                              *");
             Console.WriteLine("* Выполнил: Королев Егор Сергеевич | АСОиУб-24-1                          *");

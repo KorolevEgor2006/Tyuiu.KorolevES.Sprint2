@@ -22,7 +22,6 @@ namespace Tyuiu.KorolevES.Sprint2.Task6.V2.Lib
                 default:throw new ArgumentException($"Месяц должен быть от 1 до 12. Значение {value}.");
 
             }
-            throw new NotImplementedException();
         }
     }
 }
