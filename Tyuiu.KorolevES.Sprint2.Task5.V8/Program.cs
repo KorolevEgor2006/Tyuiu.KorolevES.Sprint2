@@ -24,9 +24,9 @@ namespace Tyuiu.KorolevES.Sprint2.Task5.V8
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Введите день месяца:                                                    *");
-            int m = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("* Введите номер месяца:                                                   *");
             int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("* Введите номер месяца:                                                   *");
+            int m = Convert.ToInt32(Console.ReadLine());
 
             DataService ds = new DataService();
             Console.WriteLine(ds.FindDateOfPreviousDay(m, n));

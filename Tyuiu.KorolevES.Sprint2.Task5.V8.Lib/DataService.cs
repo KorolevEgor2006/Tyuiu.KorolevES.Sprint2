@@ -7,9 +7,6 @@ namespace Tyuiu.KorolevES.Sprint2.Task5.V8.Lib
         {
             int mm;
             int nn;
-            int k = n;
-            n = m;
-            m = k;
             switch (n)
             {
                 case 1:
