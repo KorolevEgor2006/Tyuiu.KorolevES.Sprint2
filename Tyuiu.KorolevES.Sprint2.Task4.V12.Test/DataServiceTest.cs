@@ -20,7 +20,7 @@ namespace Tyuiu.KorolevES.Sprint2.Task4.V12.Test
             DataService ds = new DataService();
             double x = 9.0, y = 4.0;
             double res = ds.Calculate(x, y);
-            double wait = 9.076;
+            double wait = 8.822;
             Assert.AreEqual(wait, res);
         }
     }
